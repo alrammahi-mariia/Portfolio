@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal Portfolio" />
+    <meta name="author" content="Mariia Al-Rammahi" />
+    <meta
+      name="keywords"
+      content="portfolio, JavaScript, CSS, HTML, projects, skills"
+    />
+    <title>Gallery</title>
+    <link rel="icon" href="favicon.png" type="image" >
+    <link rel="stylesheet" href="style_gallery.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Indie+Flower&family=Lato:wght@100;300;400;700&family=Rajdhani:wght@300;400;500&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1><a href="index.html">Mariia Al-Rammahi</a></h1>
+      </div>
+      <nav class ="responsive">
+        <button id="mobileButton">
+          <span class="material-icons">menu</span>
+        </button>
+        <ul>
+          <li>
+            <a href="#about_me">About me</a>
+          </li>
+          <li>
+            <a href="#projects" target="_blank">Projects</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="gallery.html">Gallery</a>
+          </li>
+          <li>
+            <a href="#BCH">Business College Helsinki</a>
+          </li>
+        </ul>
+      </nav>
+</header>
+    <main>
+      <div class="grid-container">
+        <div class ="item">
+          <img src="gallery1.jpg" alt="waterfall">
+        </div>
+        <div class ="item">
+          <img src="gallery2.jpeg" alt="image">
+        </div>
+        <div class ="item">
+          <img src="gallery3.jpeg" alt="image">
+        </div>
+        <div class ="item">
+          <img src="gallery4.jpeg" alt="image">
+        </div>
+        <div class ="item">
+          <img src="gallery5.jpeg" alt="image">
+        </div>
+        <div class ="item">
+          <img src="gallery9.jpeg" alt="image">
+        </div>
+        <div class ="item">
+          <img src="gallery7.jpeg" alt="image">
+        </div>
+        <div class ="item">
+          <img src="gallery8.jpeg" alt="image">
+        </div>
+        <div class ="item">
+          <img src="gallery6.jpeg" alt="image">
+        </div>
+      </div>  
+    <main>
+    <footer>
+        <h3>Contact me</h3>
+        <div class="form-container">
+        <form>
+        <div class = "row">
+          <label id="your_name">Your name</label>
+          <input type="text" id="your_name" />
+        </div>
+        <div class="row">
+          <label id="email">Email</label>
+          <input type="email" id="email" />
+        </div>
+        <div class="row">
+          <label id="message">Message to me</label>
+          <textarea id="message"></textarea>
+        </div>
+        <div class="row">
+        <input type="submit" value="send message" />
+        </div>
+      </form>
+      </div>
+      <p id="copy">Copyright &copy Mariia Al-Rammahi 2022</p>
+      <button id="backToTop">
+        Top <span class="material-icons">arrow_upward</span>
+      </button>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
